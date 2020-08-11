@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -208,4 +209,216 @@
     </script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./css/logon.css" />
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="wrap">
+            <a href="">
+                <img src="./image/logo/logo.png" alt="">
+            </a>
+
+            <div class="header-right">
+                <a href="">
+                    <s></s>
+                    帮助中心
+                </a>
+                <div class="mwnu" style="display: none;">
+                    <ul>
+                        <li>
+                            <a href="">包裹跟踪</a>
+                        </li>
+                        <li>
+                            <a href="">常见问题</a>
+                        </li>
+                        <li>
+                            <a href="">在线退换货</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <span class="fr">你好，欢迎光临全球超市!
+                <a href="">请登录</a>
+            </span>
+        </div>
+    </div>
+
+    <!-- 中部 -->
+    <div class="boy">
+        <div class="container">
+            <ul>
+
+                <div class="shen">
+                    <a href="rue.html" style="text-decoration: none;">
+                        <p>登录</p>
+                    </a>
+                </div>
+                <div class="section">
+                    <ul>
+                        <li>
+                            <input type="text" id="username" name="username" class="yonghu" value=""
+                                placeholder="用户名/邮箱" />
+                            <span></span>
+                        </li>
+                        <li>
+                            <input type="password" id="password" name="password" class="mima" value=""
+                                placeholder="6-16位,由字母(区分大小写).数字.符号组成" />
+                            <span></span>
+
+                        </li>
+                        <div>&nbsp;</div>
+                        <div id="level"></div>
+
+                        <li>
+                            <input type="password" class="mima" value="" placeholder="确认密码" />
+                        </li>
+
+                        <li>
+
+                            <input type="text" id="vcode" class="yanzhengma" value="验证" placeholder="验证码"
+                                onfocus="this.value=''" onblur="if(this.value=='')this.value='验证码'" />
+                            <span id="code" title="看不清换一张"></span>
+                        </li>
+                    </ul>
+
+
+                    <div class="la">
+                        <input type="checkbox" class="gou" id="" value="" />
+                        <p>我已阅读相关规定</p>
+                        <b>《商城用户协议》</b>
+                    </div>
+
+                    <button class="btn" onclick="a()">立即注册</button>
+                </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div class="footer-wei">
+            <a href="">沪ICP备16050468号</a> |
+            <a href="">沪B2-20170039</a> |
+            <a href="">营业执照</a> |
+            <p>Copyright © 1号店网上超市 2007-2018，All Rights Reserved</p>
+
+        </div>
+
+    <script>
+        //弹出提示框
+
+        function a() {
+            alert('注册成功');
+        }
+
+
+
+
+
+        let username = document.getElementById("username");
+        username.onblur = function () {
+
+
+            const rightSpan = this.nextElementSibling
+
+            if (/^[a-zA-Z0-9_-]{3,15}$/.test(this.value)) {
+
+                rightSpan.className = "right"
+                rightSpan.innerHTML = "恭喜你，输入正确！"
+
+            } else {
+                rightSpan.className = "wrong"
+                rightSpan.innerHTML = "格式错误"
+
+            }
+        }
+
+        let password = document.getElementById("password");
+        password.onblur = function () {
+
+
+            const rightSpan = this.nextElementSibling
+
+            if (/^[a-zA-Z0-9]+[$_][a-zA-Z0-9]*$/.test(this.value)) {
+
+                rightSpan.className = "right"
+                rightSpan.innerHTML = "恭喜你，输入正确！"
+
+
+            } else {
+                rightSpan.className = "wrong"
+                rightSpan.innerHTML = "输入有误，请重新输入"
+
+            }
+        }
+
+
+
+        let level = document.getElementById("level")
+
+        function yanzheng() {
+            // 拿到参数列表arguments
+
+            // 拿到传入的第一个参数id的对象
+            let obj = document.getElementById(arguments[0]);
+            // 在子函数外存储arguments
+            const arg = arguments
+            // 写一个事件叫做失去焦点事件
+            obj.onblur = function () {
+                // console.log(arg)	
+                // 拿到this的下一个兄弟元素节点
+                const rightSpan = this.nextElementSibling
+                // 使用正则1 去验证我们的this.value 输入框的值
+                if (arg[1].test(this.value)) {
+                    //修改span 的类名和值
+                    rightSpan.className = "right"
+                    rightSpan.innerHTML = "恭喜你，输入正确！"
+                    console.log(arg)
+                    // 因为密码有等级所以需要判断
+                    if (arg[0] == "password") {
+                        level.className = 'level1'
+                        console.log(arg)
+                        // 从验证规则有难到易做验证
+                        if (arg[4].test(this.value)) {
+                            level.className = 'level4'
+                        } else if (arg[3].test(this.value)) {
+                            level.className = 'level3'
+                        } else if (arg[2].test(this.value)) {
+                            level.className = 'level2'
+                        }
+                    }
+                    // alert("正确")
+                } else {
+                    rightSpan.className = "wrong"
+                    rightSpan.innerHTML = "格式错误"
+                    // alert("错误")
+                }
+            }
+        }
+        yanzheng('username', /^[a-zA-Z0-9_\-$]{6,18}$/, /^([a-z].*[A-Z])|([A-Z].*[a-z])$/,
+            /^([a-z].*[0-9])|([A-Z].*[0-9])|([0-9].*[a-zA-Z])$/, /^[a-zA-Z0-9]+[$_][a-zA-Z0-9]*$/)
+        yanzheng('password', /^[a-zA-Z0-9_\-$]{6,18}$/, /^([a-z].*[A-Z])|([A-Z].*[a-z])$/,
+            /^([a-z].*[0-9])|([A-Z].*[0-9])|([0-9].*[a-zA-Z])$/, /^[a-zA-Z0-9]+[$_][a-zA-Z0-9]*$/)
+        yanzheng('password', /^[a-zA-Z0-9_\-$]{6,18}$/, /^([a-z].*[A-Z])|([A-Z].*[a-z])$/,
+            /^([a-z].*[0-9])|([A-Z].*[0-9])|([0-9].*[a-zA-Z])$/, /^[a-zA-Z0-9]+[$_][a-zA-Z0-9]*$/)
+
+
+    </script>
+</body>
+
+>>>>>>> 8b47e6b2e5c121575fd7b2d0d69f07f72ec9f1a2
 </html>
