@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="./css/shopping.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header" id="cart">
+      <!-- 顶部 -->
+      <div class="top">
+        <div class="wrap">
+          <a href="">
+            <img src="./image/logo/logo.png" alt="" />
+          </a>
+
+          <div class="header-right">
+            <a href="">
+              <s></s>
+              帮助中心
+            </a>
+            <div class="mwnu" style="display: none;">
+              <ul>
+                <li>
+                  <a href="">包裹跟踪</a>
+                </li>
+                <li>
+                  <a href="">常见问题</a>
+                </li>
+                <li>
+                  <a href="">在线退换货</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <span class="fr"
+            >你好，欢迎光临全球超市!
+            <a href="">请登录</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- 中部 -->
+      <div class="section-top2">
+        <template id="temp">
+          <tr>
+            <td>
+              <input type="checkbox" class="check" checked />
+            </td>
+            <td><img src="imagess/{src}" />{txt}</td>
+            <td>{price}</td>
+            <td>
+              <span class="reduce">-</span><input class="text" value="1" /><span
+                class="add"
+                >+</span
+              >
+            </td>
+            <td>{subtotal}</td>
+            <td>
+              <span class="del">删除</span>
+            </td>
+          </tr>
+        </template>
+        <div class="section-top2-top1" id="box">
+          <table onselectstart="return false" style="-moz-user-select : none">
+            <thead>
+              <tr>
+                <th>
+                  <label>
+                    <input type="checkbox" class="checkAll check" checked />全选
+                  </label>
+                </th>
+                <th>商品</th>
+                <th>单价</th>
+                <th>数量</th>
+                <th>小计</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+          <div class="section-top2-top1-bottom" id="section-top2-top1-bottom">
+            <aside></aside>
+            <label>
+              <input type="checkbox" class="checkAll check" checked />全选
+            </label>
+            <span class="delAll">全部删除</span>
+            <div>已选商品： <span class="selected" id="num">3</span>件</div>
+            <div>
+              合计：￥
+              <span class="total" id="total">7000</span>
+            </div>
+
+            <div class="btn-area">
+              <a href="">去结算</a>
+              <b></b>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 尾部 -->
+
+      <div class="cart-smart">
+        <div class="cart-smart-main">
+          <h3>
+            <b class="smart-head"></b>
+            <i></i> 购物车帮你选
+            <b class="hr"></b>
+          </h3>
+          <p class="f">看看加够过该商品的人还喜欢哪些</p>
+
+          <div class="cart-samrt-cont">
+            <div class="item-main">
+              <div class="item-pic">
+                <a href="">
+                  <img src="./image/shopping/b3.png" alt="" />
+                </a>
+              </div>
+              <div class="item-cont">
+                <p class="ftx">
+                  鸿星尔克ERKE 男鞋运动鞋跑步鞋新款网面透气轻便缓震气垫跑鞋
+                  51117120056 正黑/浅灰 42
+                </p>
+                <p class="ftr">正黑/浅灰 42</p>
+                <p class="fot">
+                  <em>￥</em>
+                  <i>159.00</i>
+                </p>
+              </div>
+            </div>
+            <div class="smart-items">
+              <ul>
+                <li>
+                  <div class="smart-item">
+                    <div class="mt20">
+                      <a href="">
+                        <img src="./image/shopping/b4.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="item-name">
+                      <a href="" class="ftx"
+                        >鸿星尔克 男鞋运动鞋男跑步鞋休闲鞋板鞋鞋子防滑耐磨慢跑鞋
+                        51119103074 正黑 42</a
+                      >
+                    </div>
+                    <div class="mt5">
+                      <span class="item-price">
+                        <em>￥</em>
+                        <i>159.00</i>
+                      </span>
+                      <div class="item-protag">满减</div>
+                    </div>
+                    <div class="mt5">
+                      <span style="font-style: normal;">
+                        <em style="font-style: normal;">288</em>
+                        人已购买
+                        <a href="" class="btn-append">
+                          <i class="addtocart-btn"></i>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="smart-item">
+                    <div class="mt20">
+                      <a href="">
+                        <img src="./image/shopping/b4.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="item-name">
+                      <a href="" class="ftx"
+                        >鸿星尔克 男鞋运动鞋男跑步鞋休闲鞋板鞋鞋子防滑耐磨慢跑鞋
+                        51119103074 正黑 42</a
+                      >
+                    </div>
+                    <div class="mt5">
+                      <span class="item-price">
+                        <em>￥</em>
+                        <i>159.00</i>
+                      </span>
+                      <div class="item-protag">满减</div>
+                    </div>
+                    <div class="mt5">
+                      <span class="">
+                        <em>288</em>
+                        人已购买
+                        <a href="" class="btn-append">
+                          <i class="addtocart-btn"></i>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="smart-item">
+                    <div class="mt20">
+                      <a href="">
+                        <img src="./image/shopping/b4.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="item-name">
+                      <a href="" class="ftx"
+                        >鸿星尔克 男鞋运动鞋男跑步鞋休闲鞋板鞋鞋子防滑耐磨慢跑鞋
+                        51119103074 正黑 42</a
+                      >
+                    </div>
+                    <div class="mt5">
+                      <span class="item-price">
+                        <em>￥</em>
+                        <i>159.00</i>
+                      </span>
+                      <div class="item-protag">满减</div>
+                    </div>
+                    <div class="mt5">
+                      <span class="">
+                        <em>288</em>
+                        人已购买
+                        <a href="" class="btn-append">
+                          <i class="addtocart-btn"></i>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="smart-item">
+                    <div class="mt20">
+                      <a href="">
+                        <img src="./image/shopping/b4.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="item-name">
+                      <a href="" class="ftx"
+                        >鸿星尔克 男鞋运动鞋男跑步鞋休闲鞋板鞋鞋子防滑耐磨慢跑鞋
+                        51119103074 正黑 42</a
+                      >
+                    </div>
+                    <div class="mt5">
+                      <span class="item-price">
+                        <em>￥</em>
+                        <i>159.00</i>
+                      </span>
+                      <div class="item-protag">满减</div>
+                    </div>
+                    <div class="mt5">
+                      <span class="">
+                        <em>288</em>
+                        人已购买
+                        <a href="" class="btn-append">
+                          <i class="addtocart-btn"></i>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 猜你喜欢 -->
+        <div class="cart">
+          <div class="m1">
+            <div class="mt">
+              <div class="extra-1">
+                <a href="" class="curr c-item">猜你喜欢</a>
+                <a href="" class="c-item">随手购</a>
+              </div>
+            </div>
+            <div class="mc">
+              <div class="goods-list">
+                <ul>
+                  <li>
+                    <div class="item">
+                      <div class="p-img">
+                        <img src="./image/shopping/b5.png" alt="" />
+                      </div>
+                      <div class="p-name">
+                        <a href=""
+                          >吉普JEEP休闲裤男士
+                          商务休闲直筒裤微弹男裤2020春季新品男装裤子B608 蓝色
+                          34码2尺6</a
+                        >
+                      </div>
+                      <div class="p-price">
+                        <strong>
+                          <em>￥</em>
+                          <i>148.00</i>
+                        </strong>
+                      </div>
+                      <div class="p-btn">
+                        <a href=""> <b></b>加入购物车 </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="p-img">
+                        <img src="./image/shopping/b5.png" alt="" />
+                      </div>
+                      <div class="p-name">
+                        <a href=""
+                          >吉普JEEP休闲裤男士
+                          商务休闲直筒裤微弹男裤2020春季新品男装裤子B608 蓝色
+                          34码2尺6</a
+                        >
+                      </div>
+                      <div class="p-price">
+                        <strong>
+                          <em>￥</em>
+                          <i>148.00</i>
+                        </strong>
+                      </div>
+                      <div class="p-btn">
+                        <a href=""> <b></b>加入购物车 </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="p-img">
+                        <img src="./image/shopping/b5.png" alt="" />
+                      </div>
+                      <div class="p-name">
+                        <a href=""
+                          >吉普JEEP休闲裤男士
+                          商务休闲直筒裤微弹男裤2020春季新品男装裤子B608 蓝色
+                          34码2尺6</a
+                        >
+                      </div>
+                      <div class="p-price">
+                        <strong>
+                          <em>￥</em>
+                          <i>148.00</i>
+                        </strong>
+                      </div>
+                      <div class="p-btn">
+                        <a href=""> <b></b>加入购物车 </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="p-img">
+                        <img src="./image/shopping/b5.png" alt="" />
+                      </div>
+                      <div class="p-name">
+                        <a href=""
+                          >吉普JEEP休闲裤男士
+                          商务休闲直筒裤微弹男裤2020春季新品男装裤子B608 蓝色
+                          34码2尺6</a
+                        >
+                      </div>
+                      <div class="p-price">
+                        <strong>
+                          <em>￥</em>
+                          <i>148.00</i>
+                        </strong>
+                      </div>
+                      <div class="p-btn">
+                        <a href=""> <b></b>加入购物车 </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/shopping.js"></script>
+  </body>
+</html>

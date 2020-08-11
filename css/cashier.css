@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    overflow: hidden;
+    
+  }
+  ul {
+    list-style: none;
+    text-decoration: none;
+  }
+  .header {
+    height: 100%;
+    background-color: #80808003;
+  }
+  body{
+    color: #666;
+    font-size: 12px;
+  }
+  
+  /* 最顶部 */
+  .top {
+    overflow: hidden;
+    background: #f5f5f5;
+    font-size: 12px;
+  }
+  
+  .top ul {
+    position: relative;
+    float: right;
+    right: 101px;
+  }
+  
+  .top ul a {
+    color: red;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .top ul a img {
+    padding-right: 9px;
+    margin-bottom: -1px;
+    overflow: hidden;
+  }
+  
+  .top ul .im img {
+    margin-bottom: -4px;
+  }
+  
+  .top ul .order img {
+    margin-bottom: -4px;
+  }
+  
+  .top-left {
+    margin-left: 105px;
+    float: left;
+  }
+  
+  .top-left i img {
+    margin-bottom: -4px;
+  }
+  
+  .top-left a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-top: -24px;
+  }
+  
+  .top-left-a {
+    position: relative;
+    color: red;
+    padding-top: -3px;
+    width: 100px;
+    margin-left: 100px;
+  }
+  .top-left-b {
+    margin-left: 31px;
+    margin-bottom: -4px;
+  }
+  
+  /* logo */
+  
+  .logo {
+    width: 1131px;
+    height: 180px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  
+  .logo-a {
+    float: left;
+  }
+  
+  .logo .link2 {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    line-height: 99em;
+    top: 80px;
+    left: 31%;
+    background: #fff;
+  }
+  
+  .logo .link2 b {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    line-height: 99em;
+    top: 0;
+    background: url(../image/cashier/t7.png) #fff no-repeat;
+    background-size: 200%;
+    background-position: -125px;
+  }
+  
+  .logo-b {
+    display: block;
+    border-top: 5px solid #ccc;
+    text-align: center;
+    margin: 81px 0 0;
+    float: right;
+    width: 493px;
+  
+  }
+  
+  .lobo-b dl {
+    float: left;
+    position: relative;
+    width: 160px;
+    top: -5px;
+    border-top: 5px solid #ccc;
+  }
+  
+  .logo-b .first {
+    border-top-color: #caecb6;
+    float: left;
+    position: relative;
+    width: 160px;
+    top: -5px;
+    border-top: 5px solid #ccc;
+  }
+  
+  .first dt {
+    position: relative;
+    margin: -15px auto 0;
+    color: #fff;
+    font-weight: 700;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    background: url(../image/settlement/b1.png);
+    background-position: -46px 0;
+  }
+  
+  .first dd {
+    color: #caecb6;
+  }
+  
+  .first dd s {
+    width: 10px;
+    height: 5px;
+    background: url(../image/settlement/b1.png);
+    overflow: hidden;
+    position: absolute;
+    background-position: -46px -24px;
+    background-color: #fff;
+    top: -5px;
+    left: 0;
+  }
+  
+  .logo-b .doimg {
+    border-top-color: #7abd54;
+    float: left;
+    position: relative;
+    width: 160px;
+    top: -5px;
+    border-top: 5px solid #ccc;
+  }
+  
+  .doimg dt {
+    position: relative;
+    margin: -15px auto 0;
+    color: #fff;
+    font-weight: 700;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    background: url(../image/settlement/b1.png);
+  
+  }
+  
+  .doimg dd {
+    color: #caecb6;
+  }
+  
+  .doimg dd s {
+    background: url(../image/settlement/b1.png);
+    background-position: -23px -24px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #caecb6;
+    top: -5px;
+  right: 0;
+  }
+  
+  .doimg dd b{
+      background-position: -28px -24px;
+      background-color: #ccc;
+      background: url(../image/settlement/b1.png);
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      line-height: 0;
+      font-size: 0;
+      top: -5px;
+      overflow: hidden;
+  }
+  
+  .last{
+      float: left;
+      position: relative;
+      width: 173px;
+      top: -5px;
+      border-top: 5px solid #7abd54;
+      border-top-color: #7abd54;
+  }
+  
+  .last dt {
+      position: relative;
+      margin: -15px auto 0;
+      color: #fff;
+      font-weight: 700;
+      width: 23px;
+      height: 23px;
+      line-height: 23px;
+      background: url(../image/settlement/b1.png);
+      background-position: -23px 0;
+    }
+  
+    .last dd{
+        color: #7abd54;
+    }
+  
+   
+  
+  .last b{
+      background-position: -5px -24px;
+      background-color: #fff;
+      background: url(../image/settlement/b1.png);
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      line-height: 0;
+      font-size: 0;
+      top: -5px;
+      overflow: hidden;
+  }
+  
+/* 订单提交 */
+.cn{
+    background:url(../image/cashier/bg.jpg) no-repeat;
+    position: relative;
+    background-position: 50%;
+}
+
+
+
+.content{
+    width: 1074px;
+    height: 800px;
+    margin: 0 auto;
+    background: #fff;
+   
+}
+
+.a1{
+    height: 110px;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.a1-left{
+    position: relative;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #fb9d9d;
+    float: left;   
+    box-shadow: 0 0 6px rgba(10,22,57,.13);
+}
+
+.a1-left img{
+    width: 100%;
+    border: none;
+    height: auto;
+}
+
+.qr{
+    border-left: 6px solid #fb9d9d;
+    position: absolute;
+    display: inline-block;
+    right: -7px;
+    width: 0;
+    height: 0;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    top: 50px;
+}
+
+.qr span{
+    position: absolute;
+    left: -7px;
+    top: -5px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid #fff;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+
+.a1-right{
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.r {
+    margin-top: 13px;
+}
+
+
+.a2{
+    background: #fff;
+    padding: 12px 30px;
+    box-shadow: 0 6px 32px rgba(0,0,0,.13);
+    width: 94%;
+    position: relative;
+    float: left;
+    height: 432px;
+}
+
+.a2 .pay{
+    line-height: 32px;
+    height: 97px;
+}
+
+.a2 .pay .pay-a{
+    background: url(../image/cashier/icons.png) no-repeat;
+    display: inline-block;
+    width: 24px;
+    background-position: -2px 0;
+    height: 22px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 30px;
+    transform: translateY(4px);
+    
+}
+
+.pay-b-left{
+    width: 170px;
+    float: left;
+}
+
+.pay-b-left img{
+    width: 26px;
+    height: 26px;
+    margin: 0 auto;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: none;
+}
+
+.pay-b-left strong {
+    font-size: 16px;
+    color: #333;
+    font-family: Microsoft Yahei;
+    margin-right: 5px;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+
+.pay-b-right{
+  float: left;
+}
+
+.base {
+  margin: 0 12px 0 12px;
+  display: inline-block;
+  color: #ddd;
+}
+
+.market {
+  display: inline-block;
+}
+
+.market em {
+  color: #e31613;
+  border: 1px solid #e31613;
+  line-height: 16px;
+  display: inline-block;
+  font-style: normal;
+  width: 34px;
+  height: 18px;
+  border-radius: 3px;
+  text-align: center;
+  margin-right: 4px;
+  box-sizing: border-box;
+}
+
+.market span {
+  color: #e32613;
+}
+
+
+.pointer{
+  color: #e31613;
+  border: 1px solid #e31613;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.pay-c{
+  margin-left: 228px;
+  margin-top: -91px;
+  width: 50%;
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.pay-c ul{
+  list-style-type: none;
+    list-style: none;
+    display: flex;
+    width: 475px;
+    height: 60px;
+}
+
+.pay-c ul li{
+  position: relative;
+  display: inline-block;
+  height: 45px;
+  text-align: center;
+  border: 1px solid #b0c2e1;
+  margin: 0 10px 10px 0;
+
+  box-sizing: border-box;
+  line-height: 4px;
+  border-radius: 2px;
+}
+
+.pay-item {
+  text-align: center;
+  line-height: 4px;
+}
+
+.pay-c ul li:hover{
+  border: 1px solid red;
+}
+
+
+
+.channel{
+  border-top: 1px solid #eee;
+  padding: 6px 18px 6px 18px;
+  box-sizing: border-box;
+  background: #fff;
+  margin-top: 20px;
+
+}
+
+.channel .pay-channel{
+
+  height: 30px;
+  line-height: 30px;
+  float: left;
+}
+
+.channel-b {
+  display: flow-root;
+}
+
+.channel .pay-channel .pay-a{
+  background: url(../image/cashier/icons.png) no-repeat;
+    display: inline-block;
+    width: 24px;
+    background-position: -2px 0;
+    height: 22px;
+    float: left;
+    vertical-align: middle;
+    transform: translate(-17px, 5px)
+}
+.channel-b .channel-left {
+  margin-left: 13px;
+  float: left;
+}
+
+.channel-b .channel-left img{
+  width: 26px;
+    height: 26px;
+    margin: 0 auto;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.channel-left strong{
+  font-size: 16px;
+    color: #333;
+    font-family: Microsoft Yahei;
+    margin-right: 5px;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+
+
+.channel-right {
+  float: left;
+  margin-left: 68px;
+}
+
+.insta{
+  margin-top: 60px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  border-top: 1px solid #eee;
+}
+
+.insta-a{
+  height: 43px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  color: #67a4ff;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 2px;
+  width: 120px;
+  height: 36px;
+  margin: 53px;
+}
+
+.insta-a a{
+  color: #67a4ff;
+
+
+}
+
+.insta-b div{
+  display: inline-block;
+  width: 222px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #e31613;
+  border: 1px solid #e31613;
+  border-radius: 2px;
+  font-family: Microsoft Yahei;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 22px;
+}
+
+
+.a3{
+  width: 1074px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  margin-top: 35px;
+  background: #fff;
+}
+
+.a3-left {
+  vertical-align: middle;
+  float: left;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  font-family: Microsoft Yahei;
+}
+
+.a3-left img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  margin: 25px;
+}
+
+.a3-right {
+  vertical-align: middle;
+  float: left;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  font-family: Microsoft Yahei;
+}
+
+.a3-right img {
+  width: 71px;
+    height: 34px;
+    vertical-align: middle;
+    margin: 30px;
+}

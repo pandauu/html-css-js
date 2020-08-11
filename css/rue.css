@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.img{
+    overflow: hidden;
+}
+
+.header{
+    color: #333;
+     font-size: 12px;
+}
+
+.wrap{
+    width: 1074px;
+   
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.wrap img{
+    margin-top: -3px;
+    height: 83px;
+    margin-left: 47px;
+}
+
+.header-right{
+    float: right;
+    line-height: 18px;
+    font-family: "SimSun";
+    color: #999;
+    position: relative;
+    top: 35%;
+    right: 5%;
+}
+
+.header-right a{
+    text-decoration: none;
+    padding-right: 18px;
+    background: url(../image/rue/rue-top/rue.png) no-repeat right -30px;
+    color: #333;
+}
+
+.header-right a s{
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 6px;
+    background: url(../image/rue/rue-top/rue.png) no-repeat -344px 0;
+    vertical-align: middle;
+}
+
+.fr{
+    float: right;
+    position: relative;
+    top: 35%;
+    right: 9%;
+    color: #666;
+}
+
+.fr a{
+   text-decoration: none;
+   color: red;
+}
+
+
+/* 中部 */
+
+
+.login{
+    background-color: #666;
+    padding: 26px 0 0;
+    background: url(../image/rue/rue-top/section.png) repeat-x;
+}
+
+.wrap-clear{
+    width: 980px;
+     height: 500px;
+    margin: 0 auto;
+ 
+}
+
+.clear-right{
+    position: relative;
+    float: right;
+    width: 330px;
+    padding: 45px 35px 0 35px;
+    background-color: #fff;
+  
+}
+
+.right-top h3{
+    float: left;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.right-top a{
+    float: right;
+    line-height: 30px;
+    text-decoration: none;
+    color: red;
+}
+
+.from{
+    width: 330px;
+    margin: 0 auto;
+}
+
+
+.from  a{
+    display: inline-block;
+    width: 25px;
+   
+    vertical-align: middle;
+    color: #666;
+    background: url(../image/rue/rue-top/form.png) no-repeat -50px 4px;
+    height: 23px;
+    position: absolute;
+    top: 24%;
+    left: 12%;
+    z-index: 200;
+}
+
+.dong a{
+   
+    display: inline-block;
+    width: 25px;
+    /* border: 1px solid; */
+    vertical-align: middle;
+    color: #666;
+    background: url(../image/rue/rue-top/form.png) no-repeat -150px 4px;
+    height: 24px;
+    position: absolute;
+    top: 43%;
+    left: 12%;
+    z-index: 200;
+}
+
+.dong input{
+    position: relative;
+    z-index: 100;
+    height: 14px;
+    margin-bottom: 10px;
+    padding: 14px 28px;
+    border: 1px solid #dedede;
+    background: #FFF;
+    line-height: 24px; 
+    margin-top: 11px;
+    margin-left: 8px;
+    width: 271px;
+    outline: none;
+}
+.from input{
+    position: relative;
+    z-index: 100;
+    height: 14px;
+    margin-bottom: 10px;
+    padding: 14px 28px;
+    border: 1px solid #dedede;
+    background: #FFF;
+    line-height: 24px; 
+    margin-top: 11px;
+    margin-left: 8px;
+    width: 271px;
+   outline: none;
+}
+
+
+.auto{
+    position: relative;
+    margin: 10px 0;
+    line-height: 24px;
+    min-height: 24px;
+    left: 2%;
+}
+
+.login-buttom{
+    width: 330px;
+    height: 52px;
+    border: 0 none;
+    border-radius: 3px;
+    background: #ff3c3c;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #ff7373;
+    font-family: "Microsoft YaHei";
+    line-height: 52px;
+}
+
+.joint{
+    position: relative;
+    z-index: 10;   
+}
+
+.joint p{
+    padding: 15px 0;
+    color: #666;
+}
+
+.clearfix ul{
+    float: left;
+    width: 230px;
+}
+
+.clearfix ul li{
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.clearfix ul li a{
+    display: inline-block;
+    width: 32px;
+    height: 35px;
+    font-size: 32px;
+    line-height: 35px;
+  /* background: url(../image/rue/rue-top/QQ.png) no-repeat; */
+}
+
+.clear-left{
+    margin-top: 45px;
+    width: 510px;
+    height: 315px;
+    float: left;
+}
+
+/* 尾部 */
+.footer-wei{
+    width: 980px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.footer-wei a{
+    color:#333;
+    text-decoration: none;
+}
+
+.footer-wei a:hover{
+    color: red;
+}

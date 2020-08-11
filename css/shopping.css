@@ -1,0 +1,629 @@
+/* 顶部 */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #555;
+    text-decoration: none;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.img{
+    overflow: hidden;
+}
+
+.header{
+    color: #333;
+     font-size: 12px;
+
+}
+
+.top{
+    border: 1px solid #3333331c;
+    
+}
+.wrap{
+    width: 1074px;
+   
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.wrap img{
+    margin-top: -3px;
+    height: 83px;
+    /* margin-left: 47px; */
+}
+
+span#total {
+    color: red;
+}
+
+.header-right{
+    float: right;
+    line-height: 18px;
+    font-family: "SimSun";
+    color: #999;
+    position: relative;
+    top: 35%;
+    right: 5%;
+}
+
+.header-right a{
+    text-decoration: none;
+    padding-right: 18px;
+    background: url(../image/rue/rue-top/rue.png) no-repeat right -30px;
+    color: #333;
+}
+
+.header-right a s{
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 6px;
+    background: url(../image/rue/rue-top/rue.png) no-repeat -344px 0;
+    vertical-align: middle;
+}
+
+.fr{
+    float: right;
+    position: relative;
+    top: 35%;
+    right: 9%;
+    color: #666;
+}
+
+.fr a{
+   text-decoration: none;
+   color: red;
+}
+
+
+
+
+
+/* 中部 */
+.section-top2 {
+     width: 1074px;
+    margin: 0 auto; 
+}
+
+
+.section-top2 ul {
+
+    height: 43px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-top2 ul input {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+}
+
+.section-top2 ul li {
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    font-weight: normal;
+    color: #686565;
+    height: 43px;
+    overflow-wrap: inherit;
+    line-height: 43px;
+} 
+
+.section-top3 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-top3-left {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #313030;
+    padding-left: 23px;
+}
+
+.section-top3 input {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.section-top2-top1 {
+    width: 1074px;
+    margin: 50px auto 0;
+}
+
+.section-top2-top1 table {
+    border-collapse: collapse;
+    width: inherit;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.section-top2-top1 table td  th {
+
+    height: 45px;
+    line-height: 24px;
+    overflow: hidden;
+    width: 34px;
+ 
+}
+
+.section-top2-top1 th {
+    height: 40px;
+    font-size:17px;
+    font-weight:normal;
+    color:rgb(77, 74, 74);
+}
+
+.section-top2-top1 table tbody img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.section-top2-top1 table tbody tr span {
+    cursor: default;
+}
+
+div.section-top2-top1 table tbody tr td:nth-child(2) img {
+    vertical-align: middle;
+}
+
+.section-top2-top1 table tbody tr td:nth-child(4) span {
+    display: inline-block;
+    width: 18px;
+    line-height: 15px;
+    vertical-align: middle;
+    border: 1px solid #3333332e;
+}
+
+.section-top2-top1 table tbody tr td:nth-child(4) input {
+    width: 20px;
+    height: 13px;
+    outline: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.section-top2-top1 table tbody tr td:nth-child(6) span {
+    padding: 4px 10px;
+  
+}
+
+.section-top2-top1 div.section-top2-top1-bottom {
+    padding: 15px 0;
+    margin-top: 15px;
+    height: 25px;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section-top2-top1 div.section-top2-top1-bottom span.delAll {
+    cursor: default;
+}
+
+.btn-area {
+    float: right;
+    margin-top: -14px;
+}
+
+.btn-area a {
+    display: block;
+    position: relative;
+    width: 94px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: #e54346;
+    overflow: hidden;
+}
+
+
+
+
+
+.section-top2-top1 div.section-top2-top1-bottom aside div {
+    display: inline-block;
+}
+
+.section-top2-top1 div.section-top2-top1-bottom aside div span {
+    position: absolute;
+    width: 50px;
+    line-height: 20px;
+    padding: 0 5px;
+    background-color: rgba(255, 255, 255, .4);
+    color: #333;
+    font-size: 10px;
+    margin-left: -60px;
+    margin-top: 20px;
+    transform: rotate(30deg);
+    cursor: pointer;
+}
+
+.section-top2-top1 div.section-top2-top1-bottom aside img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.section-top2-top1 div.section-top2-top1-bottom aside {
+    position: absolute;
+    background-color: #0a74cb;
+    width: 100%;
+    top: -70px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.section-top2-top1 div.section-top2-top1-bottom aside.on {
+    display: block;
+}
+
+.section-top2-top1 div.section-top2-top1-bottom aside:after {
+    position: absolute;
+    content: "";
+    border: 10px solid transparent;
+    border-top-color: #0a74cb;
+    bottom: -19px;
+    right: 280px;
+}
+
+
+
+
+/* 尾部 */
+
+.cart-smart{
+    width: 1074px;
+    margin: 0 auto;
+}
+
+.cart-smart-main{
+    padding-bottom: 28px;
+}
+
+.cart-smart-main h3{
+    position: relative;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+
+.cart-smart-main h3 .smart-head{
+    left: 460px;
+    width: 13px;
+    height: 0;
+    border: 1px solid #100f0f4d;
+    position: absolute;
+    top: 10px;
+}
+
+.cart-smart-main h3 i{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    top: -2px;
+    margin-right: 5px;
+    background: url(./image/shopping/b2.png) -62px -198px no-repeat;
+}
+
+.cart-smart-main h3 .hr{
+    right: 458px;
+    width: 13px;
+    height: 0;
+    border: 1px solid #100f0f4d;
+    position: absolute;
+    top: 10px;
+}
+
+.cart-smart-main .f{
+    color: #999;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.cart-samrt-cont{
+    border: 1px solid #e5e5e5;
+    border-top: 2px solid #aaa;
+    border-bottom: none;
+    margin-top: 15px;
+}
+
+.cart-samrt-cont .item-main{
+    padding: 15px 20px;
+    height: 50px;
+    background-color: #fafafa;
+}
+
+.cart-samrt-cont .item-main .item-pic{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #e8e8e8;
+    float: left;
+    overflow: hidden;
+}
+
+.cart-samrt-cont .item-main .item-cont{
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.item-cont .ftx{
+    color: #333;
+}
+
+.item-cont .ftx:hover{
+    color: #E2231A;
+}
+
+.item-cont .ftr{
+    color:#999 ;
+}
+
+.item-cont .ftr:hover{
+    color: #E2231A;
+}
+
+.item-cont .fot{
+    color: #E2231A;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+.item-cont .fot em{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.item-cont .fot i{
+    
+    font-style: normal;
+}
+
+.smart-items{
+    clear: both;
+    height: 275px;
+    border-bottom: 2px solid #ccc;
+}
+
+.smart-items ul li{
+    float: left;
+    width: 210px;
+    height: 275px;
+ 
+    margin-right: 57px;
+    position: relative;
+}
+
+.smart-items .smart-item .mt20{
+margin-bottom: 10px;
+margin-top: 20px;
+text-align: center;
+}
+
+.smart-items .smart-item .item-name{
+    height: 36px;
+    max-height: 36px;
+    overflow-y: hidden;
+    margin-left: 23px;
+}
+
+.smart-items .smart-item .mt5{
+    clear: left;
+    margin-top: 5px;
+    margin-left: 27px;
+}
+
+.smart-items .smart-item .mt5 .item-price{
+    float: left;
+    color: #E2231A;
+    font-family: verdana;
+}
+
+.smart-items .smart-item .mt5 .item-price em{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.smart-items .smart-item .mt5 .item-price i{
+    font-style: normal;
+}
+
+.smart-items .smart-item .item-protag{
+    color: #fff;
+    background: #E2231A;
+    padding: 0 3px 1px ;
+    margin-left: 5px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 16px;
+    position: relative;
+}
+
+.btn-append{
+    color: #666;
+    text-decoration: none;
+    float:right;
+}
+
+.btn-append .addtocart-btn{
+width: 27px;
+height: 27px;
+display: inline-block;
+background: url(../image/shopping/b2.png) -73px -247px no-repeat;
+position: relative;
+vertical-align: middle;
+top: -6px;
+right: 5px;
+
+
+}
+
+.btn-append .addtocart-btn:hover{
+  filter: alpha(opacity=60);
+  -moz-opacity:0.6;
+  opacity: 0.6;
+  background: red;
+}
+
+/* 猜你喜欢 */
+.cart{
+width: 1074;
+margin: 0 auto;
+
+}
+
+.cart .m1{
+    overflow: visible;
+}
+
+.cart .m1 .mt{
+    margin-bottom: 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.cart .m1 .mt  .c-item{
+    display: inline-block;
+    margin-right: 35px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+.cart .m1 .mt .curr{
+    color: #E2231A;
+    font-weight: 700;
+    border-color: #E2231A;
+}
+
+.cart .m1 .mc{
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+ 
+}
+
+.cart .m1 .mc .goods-list{
+    position: absolute;
+    z-index: 0;
+ 
+}
+
+.cart .m1 .mc .goods-list ul{
+    display: block;
+    list-style: none;
+}
+
+.cart .m1 .mc .goods-list ul li{
+    float: left;
+    margin: 10px;
+}
+
+.cart .m1 .mc .goods-list .item{
+    position: relative;
+    width: 206px;
+    padding: 20px;
+    background: #fff;
+    margin: -1px 0 0 -1px;
+    border: 1px dashed #cacaca;
+    overflow: hidden;
+}
+
+.cart .m1 .mc .goods-list .item .p-img{
+    width: 160px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cart .m1 .mc .goods-list .item .p-name{
+    height: 36px;
+    line-height: 18px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.cart .m1 .mc .goods-list .item .p-price{
+    width: 100%;
+    margin: 5px 0 2px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.cart .m1 .mc .goods-list .item .p-price  strong{
+    font-size: 14px;
+    color: #d91f20;
+    font-family: verdana;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cart .m1 .mc .goods-list .item .p-btn{
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.cart .m1 .mc .goods-list .item .p-btn a{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 20px;
+    border: 1px solid #999;
+    color: #666;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+.cart .m1 .mc .goods-list .item .p-btn a {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    background-position: 0 -57px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    vertical-align: middle;
+    background-image: url(./image/shopping/b6.png);
+}
+
+tbody#tbody {
+    background: white;
+}
+
+#tbody tr{
+    height: 100px;
+    border-bottom: 1px solid #33333338;
+}
+
+input.checkAll.check {
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+span#num {
+    color: red;
+    margin-right: 10px;
+}
